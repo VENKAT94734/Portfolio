@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkata Laxminath Venegalla | Software Developer & Data Analyst</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#0f172a',
+                        cardbg: '#1e293b',
+                        accent: '#38bdf8'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkbg text-slate-100 font-sans antialiased selection:bg-accent selection:text-slate-900">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-darkbg/80 backdrop-blur-md border-b border-slate-800 z-50">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="text-lg font-bold tracking-wider text-accent">Venkata Laxminath</a>
+            <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-accent transition">About</a>
+                <a href="#skills" class="hover:text-accent transition">Skills</a>
+                <a href="#experience" class="hover:text-accent transition">Experience</a>
+                <a href="#projects" class="hover:text-accent transition">Projects</a>
+                <a href="#education" class="hover:text-accent transition">Education</a>
+                <a href="#certifications" class="hover:text-accent transition">Certifications</a>
+                <a href="#contact" class="hover:text-accent transition">Contact</a>
+            </div>
+            <a href="#contact" class="bg-accent text-slate-950 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">Get in Touch</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="min-h-screen flex items-center justify-center pt-16 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block bg-sky-950 text-accent text-xs px-3 py-1 rounded-full font-medium mb-4 border border-sky-800/50">Software Developer | Python | Data Analytics & ML</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+                Transforming complex datasets into <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-400">actionable insights & solutions.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8">
+                Hi, I'm <span class="text-slate-100 font-semibold">Venkata Laxminath Venegalla</span> — a Computer Science graduate specializing in Python, SQL, data analytics, ETL processes, and application development.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#projects" class="bg-accent text-slate-950 font-semibold px-6 py-3 rounded-xl hover:bg-sky-400 transition shadow-lg shadow-sky-500/20">Explore Projects</a>
+                <a href="mailto:venkat8045g@gmail.com" class="bg-cardbg border border-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-xl hover:bg-slate-800 transition"><i class="fa-solid fa-envelope mr-2"></i> Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-slate-950/40 border-y border-slate-800/60">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-1 flex justify-center">
+                <div class="w-48 h-48 bg-gradient-to-tr from-sky-500 to-indigo-500 rounded-2xl p-1 shadow-xl">
+                    <div class="w-full h-full bg-darkbg rounded-xl flex items-center justify-center text-4xl font-bold text-accent">
+                        VLV
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-2 space-y-4">
+                <h2 class="text-2xl md:text-3xl font-bold">About Me</h2>
+                <p class="text-slate-400 leading-relaxed">
+                    I am a Computer Science graduate from Malla Reddy College of Management & Sciences (expected graduation May 2027). I possess strong expertise in data cleaning, exploratory data analysis (EDA), data visualization, ETL processes, and database management.
+                </p>
+                <p class="text-slate-400 leading-relaxed">
+                    Proficient in building scalable applications using Pandas, NumPy, Scikit-learn, Matplotlib, and Flask, I bridge software development with data-driven decision-making.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Technical Skills</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl">
+                <div class="text-accent text-2xl mb-4"><i class="fa-solid fa-code"></i></div>
+                <h3 class="font-bold text-lg mb-3 text-slate-200">Programming</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Python</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Java</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">SQL</span>
+                </div>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl">
+                <div class="text-accent text-2xl mb-4"><i class="fa-solid fa-chart-line"></i></div>
+                <h3 class="font-bold text-lg mb-3 text-slate-200">Data & Machine Learning</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Pandas</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">NumPy</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Machine Learning Basics</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Scikit-learn</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Matplotlib</span>
+                </div>
+            </div>
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl">
+                <div class="text-accent text-2xl mb-4"><i class="fa-solid fa-database"></i></div>
+                <h3 class="font-bold text-lg mb-3 text-slate-200">Databases & Web</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">SQLite</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Database Design</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">Flask</span>
+                    <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1.5 rounded-lg border border-slate-700">HTML/CSS/JS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6 bg-slate-950/40 border-y border-slate-800/60">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Professional Experience & Internships</h2>
+            <div class="space-y-8">
+                <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                        <h3 class="text-xl font-bold text-slate-100">National Internship Program - Pegasystems</h3>
+                        <span class="text-xs text-accent bg-sky-950 px-2.5 py-1 rounded border border-sky-800 w-fit mt-1 md:mt-0">Aug 2026</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Pegasystems Worldwide India Pvt. Ltd. | SmartBridge</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5 pt-2">
+                        <li>Completed industry-integrated training in workflow automation and low-code technologies.</li>
+                        <li>Gained hands-on exposure to real-world project implementation and business process automation.</li>
+                        <li>Developed practical knowledge of low-code application development and workflow-based solutions.</li>
+                    </ul>
+                </div>
+                <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl space-y-3">
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+                        <h3 class="text-xl font-bold text-slate-100">ServiceNow Virtual Intern</h3>
+                        <span class="text-xs text-accent bg-sky-950 px-2.5 py-1 rounded border border-sky-800 w-fit mt-1 md:mt-0">May 2026</span>
+                    </div>
+                    <p class="text-sm text-slate-400">ServiceNow | AICTE | SmartBridge</p>
+                    <ul class="list-disc list-inside text-sm text-slate-300 space-y-1.5 pt-2">
+                        <li>Gained practical knowledge of ServiceNow Administration, Flow Automation, Reporting, and Automated Test Framework (ATF).</li>
+                        <li>Learned Agentic AI concepts and IT Service Management (ITSM) practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Featured Project</h2>
+        <p class="text-slate-400 text-center mb-12 max-w-xl mx-auto">Explore my featured interactive data analytics application.</p>
+        
+        <div class="space-y-12">
+            <!-- Project: hospital-wait-time-analytics -->
+            <div class="bg-cardbg border border-slate-800 rounded-2xl overflow-hidden grid md:grid-cols-5 gap-6 p-6 items-center">
+                <div class="md:col-span-3 space-y-4">
+                    <span class="bg-sky-950 text-sky-300 text-xs px-2.5 py-1 rounded font-medium border border-sky-800">Healthcare Analytics</span>
+                    <h3 class="text-xl font-bold text-slate-100">Hospital Wait Time Analytics</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Developed an analytical dashboard and solution to evaluate and optimize patient wait times, processing healthcare metrics to derive actionable insights for improved hospital workflow and operational efficiency.
+                    </p>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded">Python</span>
+                        <span class="bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded">Data Analytics</span>
+                        <span class="bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded">Visualization</span>
+                    </div>
+                    <div class="flex flex-wrap space-x-4 pt-4 gap-y-2">
+                        <a href="https://github.com/VENKAT94734/hospital-wait-time-analytics.git" target="_blank" class="text-sm text-accent hover:underline flex items-center"><i class="fa-brands fa-github mr-1.5"></i> View Repository</a>
+                        <a href="https://venkat94734.github.io/hospital-wait-time-analytics/" target="_blank" class="text-sm text-accent hover:underline flex items-center"><i class="fa-solid fa-external-link-alt mr-1.5"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="md:col-span-2 bg-slate-900/80 rounded-xl overflow-hidden border border-slate-800 shadow-lg">
+                    <img src="project-1.png" alt="Hospital Wait Time Analytics Preview" class="w-full h-44 object-cover hover:scale-105 transition duration-300" onerror="this.src='https://placehold.co/600x400/1e293b/38bdf8?text=Hospital+Wait+Time'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-6 bg-slate-950/40 border-y border-slate-800/60">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Education Background</h2>
+            <p class="text-slate-400 text-center mb-12 max-w-xl mx-auto">Academic foundation and schooling milestones.</p>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- College Card -->
+                <div class="bg-cardbg border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="text-accent text-xl mb-3"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3 class="font-bold text-lg text-slate-100 mb-1">Bachelor of Science in Computer Science</h3>
+                        <p class="text-sm text-slate-400 mb-4">Malla Reddy College of Management & Sciences</p>
+                    </div>
+                    <div>
+                        <span class="inline-block bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded border border-slate-700 mb-4">Expected: May 2027</span>
+                        <div class="bg-slate-950 rounded-lg overflow-hidden border border-slate-800 h-32 flex items-center justify-center">
+                            <img src="college-badge.png" alt="College ID / Badge" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/1e293b/38bdf8?text=College+Snapshot'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Junior College Card -->
+                <div class="bg-cardbg border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="text-accent text-xl mb-3"><i class="fa-solid fa-book-open"></i></div>
+                        <h3 class="font-bold text-lg text-slate-100 mb-1">Junior College</h3>
+                        <p class="text-sm text-slate-400 mb-4">Sri Chaitanya Junior College</p>
+                    </div>
+                    <div>
+                        <span class="inline-block bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded border border-slate-700 mb-4">2021 – 2023</span>
+                        <div class="bg-slate-950 rounded-lg overflow-hidden border border-slate-800 h-32 flex items-center justify-center">
+                            <img src="junior-college.png" alt="Junior College Snapshot" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/1e293b/38bdf8?text=Junior+College'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High School Card -->
+                <div class="bg-cardbg border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="text-accent text-xl mb-3"><i class="fa-solid fa-school"></i></div>
+                        <h3 class="font-bold text-lg text-slate-100 mb-1">High School</h3>
+                        <p class="text-sm text-slate-400 mb-4">Sri Sai Siddhartha High School</p>
+                    </div>
+                    <div>
+                        <span class="inline-block bg-slate-900 text-slate-300 text-xs px-2.5 py-1 rounded border border-slate-700 mb-4">Graduated 2021</span>
+                        <div class="bg-slate-950 rounded-lg overflow-hidden border border-slate-800 h-32 flex items-center justify-center">
+                            <img src="high-school.png" alt="High School Snapshot" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/400x250/1e293b/38bdf8?text=High+School'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Training Section -->
+    <section id="certifications" class="py-20 px-6 max-w-5xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-4">Certifications & Training</h2>
+        <p class="text-slate-400 text-center mb-12 max-w-xl mx-auto">Industry credentials, virtual internships, and professional certificates.</p>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- Cert 1: ServiceNow -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-sky-950 text-sky-300 text-xs px-2.5 py-1 rounded border border-sky-800">ServiceNow & AICTE</span>
+                        <i class="fa-solid fa-certificate text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Virtual Internship Program</h3>
+                    <p class="text-sm text-slate-400">ServiceNow, AICTE, and SmartBridge collaboration platform fundamentals and workflows.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/certificate (1).pdf</span>
+                    <a href="certifications/certificate (1).pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 2: Pegasystems -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-indigo-950 text-indigo-300 text-xs px-2.5 py-1 rounded border border-indigo-800">Pegasystems</span>
+                        <i class="fa-solid fa-certificate text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">National Internship Program</h3>
+                    <p class="text-sm text-slate-400">Pegasystems Worldwide India Private Limited in collaboration with AICTE and SmartBridge.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/Venegalla_venkata_laxminath_Certificate.pdf</span>
+                    <a href="certifications/Venegalla_venkata_laxminath_Certificate.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 3: Zetheta -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-teal-950 text-teal-300 text-xs px-2.5 py-1 rounded border border-teal-800">Zetheta Algorithms</span>
+                        <i class="fa-solid fa-laptop-code text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Project Work Experience</h3>
+                    <p class="text-sm text-slate-400">Behavioral Portfolio Optimizer project work experience at Zetheta Algorithms Private Limited.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/internship.pdf</span>
+                    <a href="certifications/internship.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 4: Goldman Sachs -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-purple-950 text-purple-300 text-xs px-2.5 py-1 rounded border border-purple-800">Goldman Sachs</span>
+                        <i class="fa-solid fa-briefcase text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Operations Job Simulation</h3>
+                    <p class="text-sm text-slate-400">Goldman Sachs virtual job simulation via Forage platform.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/forage certificate.pdf</span>
+                    <a href="certifications/forage certificate.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 5: Johnson & Johnson -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-rose-950 text-rose-300 text-xs px-2.5 py-1 rounded border border-rose-800">Johnson & Johnson</span>
+                        <i class="fa-solid fa-stethoscope text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Robotics and Controls Job Simulation</h3>
+                    <p class="text-sm text-slate-400">Johnson & Johnson MedTech virtual job simulation via Forage.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/forage simulation.pdf</span>
+                    <a href="certifications/forage simulation.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 6: Nestlé -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-emerald-950 text-emerald-300 text-xs px-2.5 py-1 rounded border border-emerald-800">Nestlé</span>
+                        <i class="fa-solid fa-certificate text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Nestlé E-learning | Resilience</h3>
+                    <p class="text-sm text-slate-400">Nesternship / Nestlé YOUth professional resilience development program.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/CERTIFICATE NESTTE.pdf</span>
+                    <a href="certifications/CERTIFICATE NESTTE.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 7: Astrava Hackathon -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-amber-950 text-amber-300 text-xs px-2.5 py-1 rounded border border-amber-800">Hackathon</span>
+                        <i class="fa-solid fa-trophy text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Astrava Hackathon</h3>
+                    <p class="text-sm text-slate-400">Unstop / Dr. Ambedkar Institute of Technology, Bangalore participation credential.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/astrava.pdf</span>
+                    <a href="certifications/astrava.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+
+            <!-- Cert 8: GDG AI Workshop -->
+            <div class="bg-cardbg border border-slate-800 p-6 rounded-2xl flex flex-col justify-between">
+                <div class="space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="bg-blue-950 text-blue-300 text-xs px-2.5 py-1 rounded border border-blue-800">Google Developer Group</span>
+                        <i class="fa-solid fa-robot text-accent text-xl"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-slate-100">Advanced AI Agents Workshop</h3>
+                    <p class="text-sm text-slate-400">Exploring Advanced AI Agents: Unlocking ADK & MCP by Google Developer Group On Campus MREM.</p>
+                </div>
+                <div class="mt-6 flex items-center justify-between bg-slate-950 px-4 py-3 rounded-xl border border-slate-800">
+                    <span class="text-xs text-slate-400 flex items-center truncate mr-2"><i class="fa-solid fa-folder-open text-accent mr-2"></i> certifications/gdg.pdf</span>
+                    <a href="certifications/gdg.pdf" target="_blank" class="text-xs bg-accent text-slate-950 font-semibold px-3 py-1.5 rounded hover:bg-sky-400 transition shrink-0">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="py-20 px-6 bg-slate-950 border-t border-slate-800">
+        <div class="max-w-3xl mx-auto text-center space-y-6">
+            <h2 class="text-2xl md:text-3xl font-bold">Let's Connect</h2>
+            <p class="text-slate-400 max-w-lg mx-auto">
+                I am actively looking for software developer, data analysis, and engineering opportunities. Reach out via email or connect with me online!
+            </p>
+            <div class="flex justify-center space-x-6 text-xl pt-2">
+                <a href="mailto:venkat8045g@gmail.com" class="text-slate-100 hover:text-accent transition"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/venkat-v-4a9bbb327" target="_blank" class="text-slate-100 hover:text-accent transition"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/VENKAT94734" target="_blank" class="text-slate-100 hover:text-accent transition"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="text-xs text-slate-500 pt-8">&copy; 2026 Venkata Laxminath Venegalla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
